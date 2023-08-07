@@ -5,6 +5,7 @@
 
 #container {  
   font-family: 'verdana'; color:#777;
+  
 }
 
 header {
@@ -54,4 +55,15 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #b13030;
+}
+
+/*Section*/
+
+#banner {
+  width: 100%;
+}
+
+#banner img {
+  width: 100%;
+  margin-bottom: 0; 
 }
