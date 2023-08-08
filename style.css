@@ -1,11 +1,11 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0px;
 }
 
-#container {  
-  font-family: 'verdana'; color:#777;
-  
+#container {
+  font-family: "verdana";
+  color: #777;
 }
 
 header {
@@ -14,19 +14,17 @@ header {
   background-color: #fff;
   position: relative;
   top: 0;
-  
 }
 /* Logotipo */
 .logo {
   position: absolute;
   width: 300px;
-  height: auto;   
+  height: auto;
 }
 
 .logo img {
   width: 90%;
   margin-left: 10%;
-  
 }
 
 /*Menu*/
@@ -34,7 +32,7 @@ header {
 nav {
   position: absolute;
   right: 30px;
-  bottom: 0px; 
+  bottom: 0px;
 }
 
 nav ul li {
@@ -45,7 +43,6 @@ nav ul li {
   font-size: 1.5em;
   font-family: "verdana";
   list-style: none;
-  
 }
 
 nav ul li a {
@@ -61,18 +58,19 @@ nav ul li a:hover {
 
 #banner {
   width: 100%;
+  max-width: fit-content;
 }
 
 #banner img {
   width: 100%;
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 /*Popups*/
 
 .modalDialog {
   position: fixed;
-  font-family: 'verdana';
+  font-family: "verdana";
   top: 0;
   right: 0;
   bottom: 0;
@@ -87,13 +85,13 @@ nav ul li a:hover {
   display: none;
 }
 
-.modalDialog:target{
+.modalDialog:target {
   display: block;
   opacity: 1;
   pointer-events: auto;
 }
 
-.modalDialog div{
+.modalDialog div {
   width: 500px;
   position: relative;
   margin: 10% auto;
@@ -104,7 +102,7 @@ nav ul li a:hover {
   background-color: #fff;
 }
 
-.modalDialog p{
+.modalDialog p {
   margin-top: 5%;
   margin-bottom: 5%;
   text-indent: 45px;
@@ -115,7 +113,6 @@ nav ul li a:hover {
   width: 50%;
   position: relative;
   margin-left: 25%;
-
 }
 
 .close {
@@ -136,4 +133,27 @@ nav ul li a:hover {
 
 .close:hover {
   background-color: #b50909;
+}
+
+/*Rodapé-Footer*/
+
+footer {
+  width: 100%;
+  height: 18%;
+  background-color: #b50909;
+  color: #fff;
+  position: relative;
+  float: left;
+  font-family: "verdana";
+}
+
+footer .footer-text {
+  float: left;
+  width: 30%;
+  position: relative;
+  margin: 1%;
+}
+
+footer .footer-text a {
+  color: #fff;
 }
