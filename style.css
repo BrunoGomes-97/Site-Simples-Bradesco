@@ -87,7 +87,7 @@ nav ul li a:hover {
   display: none;
 }
 
-.modalDialog:target {
+.modalDialog:target{
   display: block;
   opacity: 1;
   pointer-events: auto;
