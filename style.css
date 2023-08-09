@@ -1,11 +1,12 @@
 * {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
-#container {
+#Container {
   font-family: "verdana";
   color: #777;
+    
 }
 
 header {
@@ -57,13 +58,12 @@ nav ul li a:hover {
 /*Section*/
 
 #banner {
-  width: 100%;
-  max-width: fit-content;
+  width: 100%;  
 }
 
 #banner img {
   width: 100%;
-  margin-bottom: 0;
+  margin-bottom: 0;  
 }
 
 /*Popups*/
@@ -180,4 +180,40 @@ footer .footer-text a {
   margin-left: 10%;
   margin-top: 50px;
  
+}
+
+/*Propriedades ./clientes */
+
+#clientes-code {
+  width: 75%;
+  position: relative;
+  float: left;  
+}
+
+#clientes-code .config-clientes {
+  width: 40%;
+  margin-top: 20px;
+  margin-left: 1.5%;
+  border: 1px solid red;
+  background-color: #ffffff;
+  padding: 1%;
+  float: left;
+}
+
+#clientes-code .config-clientes img {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+
+#clientes-code .config-clientes p {
+  width: 90%;
+  margin-left: 5%;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#clientes-code .config-clientes p a {
+  color: #111;
 }
